@@ -1426,6 +1426,10 @@ elliptic@^6.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
+emitter-component@^1.1.1:
+  version "1.1.1"
+  resolved "https://repository.dev.cognite.ai/repository/npm/emitter-component/-/emitter-component-1.1.1.tgz#065e2dbed6959bf470679edabeaf7981d1003ab6"
+
 emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://repository.dev.cognite.ai/repository/npm/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
@@ -1499,6 +1503,10 @@ esutils@^2.0.2:
 events@^1.0.0:
   version "1.1.1"
   resolved "https://repository.dev.cognite.ai/repository/npm/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
+
+events@^2.0.0:
+  version "2.0.0"
+  resolved "https://repository.dev.cognite.ai/repository/npm/events/-/events-2.0.0.tgz#cbbb56bf3ab1ac18d71c43bb32c86255062769f2"
 
 evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
   version "1.0.3"
@@ -1614,11 +1622,12 @@ figures@^2.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-file-loader@^0.11.2:
-  version "0.11.2"
-  resolved "https://repository.dev.cognite.ai/repository/npm/file-loader/-/file-loader-0.11.2.tgz#4ff1df28af38719a6098093b88c82c71d1794a34"
+file-loader@^1.1.11:
+  version "1.1.11"
+  resolved "https://repository.dev.cognite.ai/repository/npm/file-loader/-/file-loader-1.1.11.tgz#6fe886449b0f2a936e43cabaac0cdbfb369506f8"
   dependencies:
     loader-utils "^1.0.2"
+    schema-utils "^0.4.5"
 
 filename-regex@^2.0.0:
   version "2.0.1"
@@ -1722,10 +1731,6 @@ fsevents@^1.1.2:
   dependencies:
     nan "^2.9.2"
     node-pre-gyp "^0.9.0"
-
-fullscreen@~0.0.1:
-  version "0.0.1"
-  resolved "https://repository.dev.cognite.ai/repository/npm/fullscreen/-/fullscreen-0.0.1.tgz#a368c7f6d4d5d0ea55f021c926cae558370bf04f"
 
 fullscreen@~1.1.1:
   version "1.1.1"
@@ -3208,15 +3213,6 @@ pointer-lock-chrome-tolerant@0.0.7:
   version "0.0.7"
   resolved "https://repository.dev.cognite.ai/repository/npm/pointer-lock-chrome-tolerant/-/pointer-lock-chrome-tolerant-0.0.7.tgz#2ca584b621e88e58775854e6f7479a078b525bdf"
 
-pointer-trap-relative@^1.3.0:
-  version "1.3.0"
-  resolved "https://repository.dev.cognite.ai/repository/npm/pointer-trap-relative/-/pointer-trap-relative-1.3.0.tgz#fd82e2fc70c6b0393f407074911a381d64c01daf"
-  dependencies:
-    fullscreen "~0.0.1"
-    pointer-lock-chrome-tolerant "0.0.7"
-    signals "^1.0.0"
-    through "~2.3.4"
-
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://repository.dev.cognite.ai/repository/npm/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -3843,6 +3839,12 @@ stream-to-observable@^0.2.0:
   resolved "https://repository.dev.cognite.ai/repository/npm/stream-to-observable/-/stream-to-observable-0.2.0.tgz#59d6ea393d87c2c0ddac10aa0d561bc6ba6f0e10"
   dependencies:
     any-observable "^0.2.0"
+
+stream@^0.0.2:
+  version "0.0.2"
+  resolved "https://repository.dev.cognite.ai/repository/npm/stream/-/stream-0.0.2.tgz#7f5363f057f6592c5595f00bc80a27f5cec1f0ef"
+  dependencies:
+    emitter-component "^1.1.1"
 
 strict-uri-encode@^1.0.0:
   version "1.1.0"

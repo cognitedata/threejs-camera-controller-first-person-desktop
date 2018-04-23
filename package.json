@@ -1,5 +1,5 @@
 {
-  "name": "@cognite/threejs-fpv-controll",
+  "name": "@cognite/threejs-fpv-controller",
   "version": "1.0.0",
   "description":
     "A camera controller for web-browser friendly FPS controls using a keyboard and mouse.",

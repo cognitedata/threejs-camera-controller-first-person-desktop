@@ -1,8 +1,7 @@
 {
   "name": "@cognite/threejs-fpv-controller",
-  "version": "1.0.0",
-  "description":
-    "A camera controller for web-browser friendly FPS controls using a keyboard and mouse.",
+  "version": "1.0.1",
+  "description": "A camera controller for web-browser friendly FPS controls using a keyboard and mouse.",
   "license": "MIT",
   "author": {
     "name": "Tomasz Dysinski",
@@ -10,7 +9,9 @@
     "url": "https://github.com/bunnybones1"
   },
   "main": "lib/index.js",
-  "files": ["lib/*"],
+  "files": [
+    "lib/*"
+  ],
   "dependencies": {
     "@cognite/eslint-config": "^1.0.4",
     "defined": "1.0.0",
@@ -30,10 +31,14 @@
     "webpack-cli": "^2.0.15"
   },
   "scripts": {
-    "predeploy": "yarn build",
+    "prepublishOnly": "rm -rf lib/ && npm run build",
     "build": "webpack --config webpack.config.js --progress --mode=development"
   },
-  "keywords": ["threejs", "spline", "loop"],
+  "keywords": [
+    "threejs",
+    "spline",
+    "loop"
+  ],
   "publishConfig": {
     "registry": "https://repository.dev.cognite.ai/repository/cognite-npm/"
   }

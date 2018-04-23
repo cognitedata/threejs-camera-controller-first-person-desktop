@@ -148,7 +148,9 @@ function FPSCameraController(camera, element, options) {
   this.onPointerLockReleaseSignal = _onPointerLockReleaseSignal;
   this.update = update;
   this.destroy = () => {
-    _pointerTrap.destroy();
+    if (_pointerTrap) {
+      _pointerTrap.destroy();
+    }
   };
 
   this.isLocked = () => {

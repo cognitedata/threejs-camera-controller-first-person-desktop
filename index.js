@@ -1,6 +1,6 @@
 var Keyboard = require('game-keyboard');
 var keyMap = require("game-keyboard/key_map")["US"];
-var PointerTrap = require('pointer-trap-relative');
+var PointerTrap = require('./pointer-trap-relative');
 var MouseWheel = require('input-mousewheel');
 var defined = require('defined');
 function FPSCameraController(camera, element, options) {
